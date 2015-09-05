@@ -14,12 +14,12 @@
 		910BD7D11B9A045A003BB10E /* TradeShowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7D01B9A045A003BB10E /* TradeShowTests.swift */; };
 		910BD7DB1B9A05AE003BB10E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 910BD7DA1B9A05AE003BB10E /* Images.xcassets */; };
 		910BD7DD1B9A0623003BB10E /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7DC1B9A0623003BB10E /* MenuController.swift */; };
-		910BD7E21B9A0698003BB10E /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7DE1B9A0698003BB10E /* NewsTableViewController.swift */; };
-		910BD7E31B9A0698003BB10E /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7DF1B9A0698003BB10E /* NewsTableViewCell.swift */; };
-		910BD7E41B9A0698003BB10E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7E01B9A0698003BB10E /* MapViewController.swift */; };
-		910BD7E51B9A0698003BB10E /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7E11B9A0698003BB10E /* PhotoViewController.swift */; };
 		910BD7E71B9A0709003BB10E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910BD7E61B9A0709003BB10E /* MapKit.framework */; };
 		910BD7EF1B9ACCDA003BB10E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7EE1B9ACCDA003BB10E /* SWRevealViewController.m */; };
+		910BD7F41B9ADCC0003BB10E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7F01B9ADCC0003BB10E /* MapViewController.swift */; };
+		910BD7F51B9ADCC0003BB10E /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7F11B9ADCC0003BB10E /* NewsTableViewCell.swift */; };
+		910BD7F61B9ADCC0003BB10E /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7F21B9ADCC0003BB10E /* NewsTableViewController.swift */; };
+		910BD7F71B9ADCC0003BB10E /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7F31B9ADCC0003BB10E /* PhotoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,14 +44,14 @@
 		910BD7D01B9A045A003BB10E /* TradeShowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeShowTests.swift; sourceTree = "<group>"; };
 		910BD7DA1B9A05AE003BB10E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../SidebarMenu/SidebarMenu/Images.xcassets; sourceTree = "<group>"; };
 		910BD7DC1B9A0623003BB10E /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
-		910BD7DE1B9A0698003BB10E /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsTableViewController.swift; path = ../../SidebarMenu/SidebarMenu/NewsTableViewController.swift; sourceTree = "<group>"; };
-		910BD7DF1B9A0698003BB10E /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NewsTableViewCell.swift; path = ../../SidebarMenu/SidebarMenu/NewsTableViewCell.swift; sourceTree = "<group>"; };
-		910BD7E01B9A0698003BB10E /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../../SidebarMenu/SidebarMenu/MapViewController.swift; sourceTree = "<group>"; };
-		910BD7E11B9A0698003BB10E /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoViewController.swift; path = ../../SidebarMenu/SidebarMenu/PhotoViewController.swift; sourceTree = "<group>"; };
 		910BD7E61B9A0709003BB10E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		910BD7E91B9A0741003BB10E /* TradeShow-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TradeShow-Bridging-Header.h"; sourceTree = "<group>"; };
 		910BD7ED1B9ACCDA003BB10E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = SOURCE_ROOT; };
 		910BD7EE1B9ACCDA003BB10E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = SOURCE_ROOT; };
+		910BD7F01B9ADCC0003BB10E /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		910BD7F11B9ADCC0003BB10E /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		910BD7F21B9ADCC0003BB10E /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		910BD7F31B9ADCC0003BB10E /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +102,10 @@
 				910BD7DC1B9A0623003BB10E /* MenuController.swift */,
 				910BD7DA1B9A05AE003BB10E /* Images.xcassets */,
 				910BD7C31B9A045A003BB10E /* LaunchScreen.xib */,
-				910BD7DE1B9A0698003BB10E /* NewsTableViewController.swift */,
-				910BD7DF1B9A0698003BB10E /* NewsTableViewCell.swift */,
-				910BD7E01B9A0698003BB10E /* MapViewController.swift */,
-				910BD7E11B9A0698003BB10E /* PhotoViewController.swift */,
+				910BD7F01B9ADCC0003BB10E /* MapViewController.swift */,
+				910BD7F11B9ADCC0003BB10E /* NewsTableViewCell.swift */,
+				910BD7F21B9ADCC0003BB10E /* NewsTableViewController.swift */,
+				910BD7F31B9ADCC0003BB10E /* PhotoViewController.swift */,
 				910BD7B81B9A045A003BB10E /* Supporting Files */,
 			);
 			path = TradeShow;
@@ -246,12 +246,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				910BD7E21B9A0698003BB10E /* NewsTableViewController.swift in Sources */,
-				910BD7E41B9A0698003BB10E /* MapViewController.swift in Sources */,
 				910BD7BD1B9A045A003BB10E /* ViewController.swift in Sources */,
-				910BD7E31B9A0698003BB10E /* NewsTableViewCell.swift in Sources */,
+				910BD7F51B9ADCC0003BB10E /* NewsTableViewCell.swift in Sources */,
+				910BD7F41B9ADCC0003BB10E /* MapViewController.swift in Sources */,
 				910BD7EF1B9ACCDA003BB10E /* SWRevealViewController.m in Sources */,
-				910BD7E51B9A0698003BB10E /* PhotoViewController.swift in Sources */,
+				910BD7F61B9ADCC0003BB10E /* NewsTableViewController.swift in Sources */,
+				910BD7F71B9ADCC0003BB10E /* PhotoViewController.swift in Sources */,
 				910BD7DD1B9A0623003BB10E /* MenuController.swift in Sources */,
 				910BD7BB1B9A045A003BB10E /* AppDelegate.swift in Sources */,
 			);
