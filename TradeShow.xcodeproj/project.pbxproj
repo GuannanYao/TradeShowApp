@@ -19,7 +19,7 @@
 		910BD7E41B9A0698003BB10E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7E01B9A0698003BB10E /* MapViewController.swift */; };
 		910BD7E51B9A0698003BB10E /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7E11B9A0698003BB10E /* PhotoViewController.swift */; };
 		910BD7E71B9A0709003BB10E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910BD7E61B9A0709003BB10E /* MapKit.framework */; };
-		910BD7EC1B9A0741003BB10E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7EB1B9A0741003BB10E /* SWRevealViewController.m */; };
+		910BD7EF1B9ACCDA003BB10E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7EE1B9ACCDA003BB10E /* SWRevealViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -50,8 +50,8 @@
 		910BD7E11B9A0698003BB10E /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PhotoViewController.swift; path = ../../SidebarMenu/SidebarMenu/PhotoViewController.swift; sourceTree = "<group>"; };
 		910BD7E61B9A0709003BB10E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		910BD7E91B9A0741003BB10E /* TradeShow-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TradeShow-Bridging-Header.h"; sourceTree = "<group>"; };
-		910BD7EA1B9A0741003BB10E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = "<group>"; };
-		910BD7EB1B9A0741003BB10E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "../../../../Downloads/SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = "<group>"; };
+		910BD7ED1B9ACCDA003BB10E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = SOURCE_ROOT; };
+		910BD7EE1B9ACCDA003BB10E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,8 +139,8 @@
 		910BD7E81B9A0714003BB10E /* SWRevealViewController */ = {
 			isa = PBXGroup;
 			children = (
-				910BD7EA1B9A0741003BB10E /* SWRevealViewController.h */,
-				910BD7EB1B9A0741003BB10E /* SWRevealViewController.m */,
+				910BD7ED1B9ACCDA003BB10E /* SWRevealViewController.h */,
+				910BD7EE1B9ACCDA003BB10E /* SWRevealViewController.m */,
 				910BD7E91B9A0741003BB10E /* TradeShow-Bridging-Header.h */,
 			);
 			name = SWRevealViewController;
@@ -249,8 +249,8 @@
 				910BD7E21B9A0698003BB10E /* NewsTableViewController.swift in Sources */,
 				910BD7E41B9A0698003BB10E /* MapViewController.swift in Sources */,
 				910BD7BD1B9A045A003BB10E /* ViewController.swift in Sources */,
-				910BD7EC1B9A0741003BB10E /* SWRevealViewController.m in Sources */,
 				910BD7E31B9A0698003BB10E /* NewsTableViewCell.swift in Sources */,
+				910BD7EF1B9ACCDA003BB10E /* SWRevealViewController.m in Sources */,
 				910BD7E51B9A0698003BB10E /* PhotoViewController.swift in Sources */,
 				910BD7DD1B9A0623003BB10E /* MenuController.swift in Sources */,
 				910BD7BB1B9A045A003BB10E /* AppDelegate.swift in Sources */,
@@ -456,6 +456,7 @@
 				910BD7D61B9A045A003BB10E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		910BD7D71B9A045A003BB10E /* Build configuration list for PBXNativeTarget "TradeShowTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +465,7 @@
 				910BD7D91B9A045A003BB10E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
