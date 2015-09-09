@@ -21,6 +21,7 @@
 		910BD7F61B9ADCC0003BB10E /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7F21B9ADCC0003BB10E /* NewsTableViewController.swift */; };
 		910BD7F71B9ADCC0003BB10E /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7F31B9ADCC0003BB10E /* PhotoViewController.swift */; };
 		910BD7FB1B9F50E3003BB10E /* BrowseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7FA1B9F50E3003BB10E /* BrowseCollectionViewController.swift */; };
+		9129D5991B9F7BD00088F743 /* JudgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129D5981B9F7BD00088F743 /* JudgeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		910BD7F21B9ADCC0003BB10E /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 		910BD7F31B9ADCC0003BB10E /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		910BD7FA1B9F50E3003BB10E /* BrowseCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseCollectionViewController.swift; sourceTree = "<group>"; };
+		9129D5981B9F7BD00088F743 /* JudgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JudgeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +106,7 @@
 				910BD7DC1B9A0623003BB10E /* MenuController.swift */,
 				910BD7DA1B9A05AE003BB10E /* Images.xcassets */,
 				910BD7C31B9A045A003BB10E /* LaunchScreen.xib */,
+				9129D5981B9F7BD00088F743 /* JudgeViewController.swift */,
 				910BD7FA1B9F50E3003BB10E /* BrowseCollectionViewController.swift */,
 				910BD7F01B9ADCC0003BB10E /* MapViewController.swift */,
 				910BD7F11B9ADCC0003BB10E /* NewsTableViewCell.swift */,
@@ -257,6 +260,7 @@
 				910BD7F61B9ADCC0003BB10E /* NewsTableViewController.swift in Sources */,
 				910BD7F71B9ADCC0003BB10E /* PhotoViewController.swift in Sources */,
 				910BD7DD1B9A0623003BB10E /* MenuController.swift in Sources */,
+				9129D5991B9F7BD00088F743 /* JudgeViewController.swift in Sources */,
 				910BD7BB1B9A045A003BB10E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

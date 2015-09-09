@@ -8,12 +8,12 @@
 
 import UIKit
 
-class MapViewController: UIViewController {
+class MapViewController: UIViewController{
     @IBOutlet weak var menuButton:UIBarButtonItem!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
         if self.revealViewController() != nil{
             menuButton.target = self.revealViewController()
@@ -28,6 +28,18 @@ class MapViewController: UIViewController {
     }
     
 
+    func drawRect(rect: CGRect){
+        let context = UIGraphicsGetCurrentContext()
+        CGContextSetLineWidth(context, 2.0)
+        let colorSpace = CGColorSpaceCreateDeviceRGB()
+        let components: [CGFloat] = [0.0, 0.0, 0.0, 1.0]
+        let color = CGColorCreate(colorSpace, components)
+        CGContextSetStrokeColorWithColor(context, color)
+        CGContextMoveToPoint(context, 30, 30)
+        CGContextAddLineToPoint(context, 300, 400)
+        CGContextStrokePath(context)
+        
+    }
     /*
     // MARK: - Navigation
 

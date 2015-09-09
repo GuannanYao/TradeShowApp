@@ -1,5 +1,5 @@
 //
-//  BrowseCollectionViewController.swift
+//  JudgeViewController.swift
 //  TradeShow
 //
 //  Created by Guannan Yao on 9/09/2015.
@@ -8,11 +8,20 @@
 
 import UIKit
 
-class BrowseCollectionViewController: UIViewController {
+class JudgeViewController: UIViewController {
+
+    @IBOutlet weak var textField: UITextField!
+    
+    @IBOutlet weak var btnAction: UIButton!
+    
+    @IBOutlet weak var imgQRCode: UIImageView!
+    
+    @IBOutlet weak var slider: UISlider!
     
     @IBOutlet weak var menuButton: UIBarButtonItem!
     
-
+    var qrcodeImage: CIImage!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -29,6 +38,29 @@ class BrowseCollectionViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
+    @IBAction func performButtonAction(sender:AnyObject){
+        if qrcodeImage == nil{
+            if textField.text == "" {
+                return
+            }
+            let data = textField.text.dataUsingEncoding(NSISOLatin1StringEncoding, allowLossyConversion: false)
+            
+            let filter = CIFilter(name: "CIQRCodeGenerator")
+            
+            filter.setValue(data, forKey: "inputMessage")
+            filter.setValue("H", forKey: "inputCorrectionLevel")
+            
+            qrcodeImage = filter.outputImage
+            
+            imgQRCode.image = UIImage(CIImage: qrcodeImage)
+            
+            textField.resignFirstResponder()
+        }
+    }
+    
+    @IBAction func changeImageViewScale(sender:AnyObject){
+        
+    }
 
     /*
     // MARK: - Navigation
