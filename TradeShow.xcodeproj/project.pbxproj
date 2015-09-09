@@ -15,13 +15,14 @@
 		910BD7DD1B9A0623003BB10E /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7DC1B9A0623003BB10E /* MenuController.swift */; };
 		910BD7E71B9A0709003BB10E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910BD7E61B9A0709003BB10E /* MapKit.framework */; };
 		910BD7EF1B9ACCDA003BB10E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7EE1B9ACCDA003BB10E /* SWRevealViewController.m */; };
-		910BD7F41B9ADCC0003BB10E /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7F01B9ADCC0003BB10E /* MapViewController.swift */; };
 		910BD7F51B9ADCC0003BB10E /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7F11B9ADCC0003BB10E /* NewsTableViewCell.swift */; };
 		910BD7F61B9ADCC0003BB10E /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7F21B9ADCC0003BB10E /* NewsTableViewController.swift */; };
 		910BD7F71B9ADCC0003BB10E /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7F31B9ADCC0003BB10E /* PhotoViewController.swift */; };
 		910BD7FB1B9F50E3003BB10E /* BrowseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7FA1B9F50E3003BB10E /* BrowseCollectionViewController.swift */; };
 		9129D5991B9F7BD00088F743 /* JudgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129D5981B9F7BD00088F743 /* JudgeViewController.swift */; };
 		9129D59B1B9FDD420088F743 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9129D59A1B9FDD420088F743 /* Images.xcassets */; };
+		9129D59F1BA065DB0088F743 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129D59E1BA065DB0088F743 /* NavigationViewController.swift */; };
+		9129D5A11BA073D90088F743 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129D5A01BA073D90088F743 /* SettingViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,13 +50,14 @@
 		910BD7E91B9A0741003BB10E /* TradeShow-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TradeShow-Bridging-Header.h"; sourceTree = "<group>"; };
 		910BD7ED1B9ACCDA003BB10E /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SWRevealViewController.h; path = "SWRevealViewController-master/SWRevealViewController/SWRevealViewController.h"; sourceTree = SOURCE_ROOT; };
 		910BD7EE1B9ACCDA003BB10E /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SWRevealViewController.m; path = "SWRevealViewController-master/SWRevealViewController/SWRevealViewController.m"; sourceTree = SOURCE_ROOT; };
-		910BD7F01B9ADCC0003BB10E /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		910BD7F11B9ADCC0003BB10E /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
 		910BD7F21B9ADCC0003BB10E /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 		910BD7F31B9ADCC0003BB10E /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		910BD7FA1B9F50E3003BB10E /* BrowseCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseCollectionViewController.swift; sourceTree = "<group>"; };
 		9129D5981B9F7BD00088F743 /* JudgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JudgeViewController.swift; sourceTree = "<group>"; };
 		9129D59A1B9FDD420088F743 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		9129D59E1BA065DB0088F743 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationViewController.swift; path = TradeShow.xcodeproj/../NavigationViewController.swift; sourceTree = SOURCE_ROOT; };
+		9129D5A01BA073D90088F743 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingViewController.swift; path = TradeShow.xcodeproj/../SettingViewController.swift; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,13 +104,14 @@
 				9129D59A1B9FDD420088F743 /* Images.xcassets */,
 				910BD7E81B9A0714003BB10E /* SWRevealViewController */,
 				910BD7BA1B9A045A003BB10E /* AppDelegate.swift */,
+				9129D59E1BA065DB0088F743 /* NavigationViewController.swift */,
 				910BD7BC1B9A045A003BB10E /* ViewController.swift */,
 				910BD7BE1B9A045A003BB10E /* Main.storyboard */,
 				910BD7DC1B9A0623003BB10E /* MenuController.swift */,
 				910BD7C31B9A045A003BB10E /* LaunchScreen.xib */,
+				9129D5A01BA073D90088F743 /* SettingViewController.swift */,
 				9129D5981B9F7BD00088F743 /* JudgeViewController.swift */,
 				910BD7FA1B9F50E3003BB10E /* BrowseCollectionViewController.swift */,
-				910BD7F01B9ADCC0003BB10E /* MapViewController.swift */,
 				910BD7F11B9ADCC0003BB10E /* NewsTableViewCell.swift */,
 				910BD7F21B9ADCC0003BB10E /* NewsTableViewController.swift */,
 				910BD7F31B9ADCC0003BB10E /* PhotoViewController.swift */,
@@ -253,9 +256,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				910BD7BD1B9A045A003BB10E /* ViewController.swift in Sources */,
+				9129D5A11BA073D90088F743 /* SettingViewController.swift in Sources */,
+				9129D59F1BA065DB0088F743 /* NavigationViewController.swift in Sources */,
 				910BD7F51B9ADCC0003BB10E /* NewsTableViewCell.swift in Sources */,
 				910BD7FB1B9F50E3003BB10E /* BrowseCollectionViewController.swift in Sources */,
-				910BD7F41B9ADCC0003BB10E /* MapViewController.swift in Sources */,
 				910BD7EF1B9ACCDA003BB10E /* SWRevealViewController.m in Sources */,
 				910BD7F61B9ADCC0003BB10E /* NewsTableViewController.swift in Sources */,
 				910BD7F71B9ADCC0003BB10E /* PhotoViewController.swift in Sources */,

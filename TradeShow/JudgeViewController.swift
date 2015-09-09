@@ -52,16 +52,37 @@ class JudgeViewController: UIViewController {
             
             qrcodeImage = filter.outputImage
             
-            imgQRCode.image = UIImage(CIImage: qrcodeImage)
+            //imgQRCode.image = UIImage(CIImage: qrcodeImage)
+            displayQRCodeImage()
             
             textField.resignFirstResponder()
+            
+            btnAction.setTitle("Clear", forState: UIControlState.Normal)
+            //slider.hidden = false
+            
+        }else{
+            imgQRCode.image = nil
+            qrcodeImage = nil
+            btnAction.setTitle("Generate", forState: UIControlState.Normal)
         }
+        textField.enabled = !textField.enabled
+        slider.hidden = !slider.hidden
     }
     
     @IBAction func changeImageViewScale(sender:AnyObject){
-        
+        imgQRCode.transform = CGAffineTransformMakeScale(CGFloat(slider.value), CGFloat(slider.value))
     }
 
+    func displayQRCodeImage() {
+        let scaleX = imgQRCode.frame.size.width / qrcodeImage.extent().size.width
+        let scaleY = imgQRCode.frame.size.height / qrcodeImage.extent().size.height
+        
+        let transformedImage = qrcodeImage.imageByApplyingTransform(CGAffineTransformMakeScale(scaleX, scaleY))
+        
+        imgQRCode.image = UIImage(CIImage: transformedImage)
+        
+        
+    }
     /*
     // MARK: - Navigation
 
