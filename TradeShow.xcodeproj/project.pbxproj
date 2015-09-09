@@ -12,7 +12,6 @@
 		910BD7C01B9A045A003BB10E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 910BD7BE1B9A045A003BB10E /* Main.storyboard */; };
 		910BD7C51B9A045A003BB10E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 910BD7C31B9A045A003BB10E /* LaunchScreen.xib */; };
 		910BD7D11B9A045A003BB10E /* TradeShowTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7D01B9A045A003BB10E /* TradeShowTests.swift */; };
-		910BD7DB1B9A05AE003BB10E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 910BD7DA1B9A05AE003BB10E /* Images.xcassets */; };
 		910BD7DD1B9A0623003BB10E /* MenuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7DC1B9A0623003BB10E /* MenuController.swift */; };
 		910BD7E71B9A0709003BB10E /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 910BD7E61B9A0709003BB10E /* MapKit.framework */; };
 		910BD7EF1B9ACCDA003BB10E /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7EE1B9ACCDA003BB10E /* SWRevealViewController.m */; };
@@ -22,6 +21,7 @@
 		910BD7F71B9ADCC0003BB10E /* PhotoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7F31B9ADCC0003BB10E /* PhotoViewController.swift */; };
 		910BD7FB1B9F50E3003BB10E /* BrowseCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910BD7FA1B9F50E3003BB10E /* BrowseCollectionViewController.swift */; };
 		9129D5991B9F7BD00088F743 /* JudgeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129D5981B9F7BD00088F743 /* JudgeViewController.swift */; };
+		9129D59B1B9FDD420088F743 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9129D59A1B9FDD420088F743 /* Images.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,7 +44,6 @@
 		910BD7CA1B9A045A003BB10E /* TradeShowTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TradeShowTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		910BD7CF1B9A045A003BB10E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		910BD7D01B9A045A003BB10E /* TradeShowTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TradeShowTests.swift; sourceTree = "<group>"; };
-		910BD7DA1B9A05AE003BB10E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../../SidebarMenu/SidebarMenu/Images.xcassets; sourceTree = "<group>"; };
 		910BD7DC1B9A0623003BB10E /* MenuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuController.swift; sourceTree = "<group>"; };
 		910BD7E61B9A0709003BB10E /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		910BD7E91B9A0741003BB10E /* TradeShow-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TradeShow-Bridging-Header.h"; sourceTree = "<group>"; };
@@ -56,6 +55,7 @@
 		910BD7F31B9ADCC0003BB10E /* PhotoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoViewController.swift; sourceTree = "<group>"; };
 		910BD7FA1B9F50E3003BB10E /* BrowseCollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BrowseCollectionViewController.swift; sourceTree = "<group>"; };
 		9129D5981B9F7BD00088F743 /* JudgeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JudgeViewController.swift; sourceTree = "<group>"; };
+		9129D59A1B9FDD420088F743 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,12 +99,12 @@
 		910BD7B71B9A045A003BB10E /* TradeShow */ = {
 			isa = PBXGroup;
 			children = (
+				9129D59A1B9FDD420088F743 /* Images.xcassets */,
 				910BD7E81B9A0714003BB10E /* SWRevealViewController */,
 				910BD7BA1B9A045A003BB10E /* AppDelegate.swift */,
 				910BD7BC1B9A045A003BB10E /* ViewController.swift */,
 				910BD7BE1B9A045A003BB10E /* Main.storyboard */,
 				910BD7DC1B9A0623003BB10E /* MenuController.swift */,
-				910BD7DA1B9A05AE003BB10E /* Images.xcassets */,
 				910BD7C31B9A045A003BB10E /* LaunchScreen.xib */,
 				9129D5981B9F7BD00088F743 /* JudgeViewController.swift */,
 				910BD7FA1B9F50E3003BB10E /* BrowseCollectionViewController.swift */,
@@ -232,8 +232,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9129D59B1B9FDD420088F743 /* Images.xcassets in Resources */,
 				910BD7C01B9A045A003BB10E /* Main.storyboard in Resources */,
-				910BD7DB1B9A05AE003BB10E /* Images.xcassets in Resources */,
 				910BD7C51B9A045A003BB10E /* LaunchScreen.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
