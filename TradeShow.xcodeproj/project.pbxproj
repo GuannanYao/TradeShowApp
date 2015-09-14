@@ -23,6 +23,8 @@
 		9129D59B1B9FDD420088F743 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9129D59A1B9FDD420088F743 /* Images.xcassets */; };
 		9129D59F1BA065DB0088F743 /* NavigationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129D59E1BA065DB0088F743 /* NavigationViewController.swift */; };
 		9129D5A11BA073D90088F743 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129D5A01BA073D90088F743 /* SettingViewController.swift */; };
+		9129D5A31BA09AD20088F743 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129D5A21BA09AD20088F743 /* CollectionViewController.swift */; };
+		9129D5A71BA7243D0088F743 /* collectionVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129D5A61BA7243D0088F743 /* collectionVCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +60,8 @@
 		9129D59A1B9FDD420088F743 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		9129D59E1BA065DB0088F743 /* NavigationViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NavigationViewController.swift; path = TradeShow.xcodeproj/../NavigationViewController.swift; sourceTree = SOURCE_ROOT; };
 		9129D5A01BA073D90088F743 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingViewController.swift; path = TradeShow.xcodeproj/../SettingViewController.swift; sourceTree = SOURCE_ROOT; };
+		9129D5A21BA09AD20088F743 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		9129D5A61BA7243D0088F743 /* collectionVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = collectionVCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,18 +107,20 @@
 			children = (
 				9129D59A1B9FDD420088F743 /* Images.xcassets */,
 				910BD7E81B9A0714003BB10E /* SWRevealViewController */,
-				910BD7BA1B9A045A003BB10E /* AppDelegate.swift */,
-				9129D59E1BA065DB0088F743 /* NavigationViewController.swift */,
-				910BD7BC1B9A045A003BB10E /* ViewController.swift */,
 				910BD7BE1B9A045A003BB10E /* Main.storyboard */,
-				910BD7DC1B9A0623003BB10E /* MenuController.swift */,
 				910BD7C31B9A045A003BB10E /* LaunchScreen.xib */,
+				910BD7DC1B9A0623003BB10E /* MenuController.swift */,
+				910BD7FA1B9F50E3003BB10E /* BrowseCollectionViewController.swift */,
+				9129D5A61BA7243D0088F743 /* collectionVCell.swift */,
+				910BD7F21B9ADCC0003BB10E /* NewsTableViewController.swift */,
+				910BD7F11B9ADCC0003BB10E /* NewsTableViewCell.swift */,
 				9129D5A01BA073D90088F743 /* SettingViewController.swift */,
 				9129D5981B9F7BD00088F743 /* JudgeViewController.swift */,
-				910BD7FA1B9F50E3003BB10E /* BrowseCollectionViewController.swift */,
-				910BD7F11B9ADCC0003BB10E /* NewsTableViewCell.swift */,
-				910BD7F21B9ADCC0003BB10E /* NewsTableViewController.swift */,
 				910BD7F31B9ADCC0003BB10E /* PhotoViewController.swift */,
+				9129D59E1BA065DB0088F743 /* NavigationViewController.swift */,
+				9129D5A21BA09AD20088F743 /* CollectionViewController.swift */,
+				910BD7BA1B9A045A003BB10E /* AppDelegate.swift */,
+				910BD7BC1B9A045A003BB10E /* ViewController.swift */,
 				910BD7B81B9A045A003BB10E /* Supporting Files */,
 			);
 			path = TradeShow;
@@ -255,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9129D5A31BA09AD20088F743 /* CollectionViewController.swift in Sources */,
 				910BD7BD1B9A045A003BB10E /* ViewController.swift in Sources */,
 				9129D5A11BA073D90088F743 /* SettingViewController.swift in Sources */,
 				9129D59F1BA065DB0088F743 /* NavigationViewController.swift in Sources */,
@@ -264,6 +271,7 @@
 				910BD7F61B9ADCC0003BB10E /* NewsTableViewController.swift in Sources */,
 				910BD7F71B9ADCC0003BB10E /* PhotoViewController.swift in Sources */,
 				910BD7DD1B9A0623003BB10E /* MenuController.swift in Sources */,
+				9129D5A71BA7243D0088F743 /* collectionVCell.swift in Sources */,
 				9129D5991B9F7BD00088F743 /* JudgeViewController.swift in Sources */,
 				910BD7BB1B9A045A003BB10E /* AppDelegate.swift in Sources */,
 			);
