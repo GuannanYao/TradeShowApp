@@ -25,6 +25,8 @@
 		9129D5A11BA073D90088F743 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129D5A01BA073D90088F743 /* SettingViewController.swift */; };
 		9129D5A31BA09AD20088F743 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129D5A21BA09AD20088F743 /* CollectionViewController.swift */; };
 		9129D5A71BA7243D0088F743 /* collectionVCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129D5A61BA7243D0088F743 /* collectionVCell.swift */; };
+		9129D5AD1BA862490088F743 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129D5AC1BA862490088F743 /* MapViewController.swift */; };
+		9129D5AF1BA8734D0088F743 /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9129D5AE1BA8734D0088F743 /* Beacon.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -62,6 +64,8 @@
 		9129D5A01BA073D90088F743 /* SettingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SettingViewController.swift; path = TradeShow.xcodeproj/../SettingViewController.swift; sourceTree = SOURCE_ROOT; };
 		9129D5A21BA09AD20088F743 /* CollectionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 		9129D5A61BA7243D0088F743 /* collectionVCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = collectionVCell.swift; sourceTree = "<group>"; };
+		9129D5AC1BA862490088F743 /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MapViewController.swift; path = ../MapViewController.swift; sourceTree = "<group>"; };
+		9129D5AE1BA8734D0088F743 /* Beacon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Beacon.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,10 +112,12 @@
 				9129D59A1B9FDD420088F743 /* Images.xcassets */,
 				910BD7E81B9A0714003BB10E /* SWRevealViewController */,
 				910BD7BE1B9A045A003BB10E /* Main.storyboard */,
+				9129D5AE1BA8734D0088F743 /* Beacon.swift */,
 				910BD7C31B9A045A003BB10E /* LaunchScreen.xib */,
 				910BD7DC1B9A0623003BB10E /* MenuController.swift */,
 				910BD7FA1B9F50E3003BB10E /* BrowseCollectionViewController.swift */,
 				9129D5A61BA7243D0088F743 /* collectionVCell.swift */,
+				9129D5AC1BA862490088F743 /* MapViewController.swift */,
 				910BD7F21B9ADCC0003BB10E /* NewsTableViewController.swift */,
 				910BD7F11B9ADCC0003BB10E /* NewsTableViewCell.swift */,
 				9129D5A01BA073D90088F743 /* SettingViewController.swift */,
@@ -263,6 +269,7 @@
 			files = (
 				9129D5A31BA09AD20088F743 /* CollectionViewController.swift in Sources */,
 				910BD7BD1B9A045A003BB10E /* ViewController.swift in Sources */,
+				9129D5AF1BA8734D0088F743 /* Beacon.swift in Sources */,
 				9129D5A11BA073D90088F743 /* SettingViewController.swift in Sources */,
 				9129D59F1BA065DB0088F743 /* NavigationViewController.swift in Sources */,
 				910BD7F51B9ADCC0003BB10E /* NewsTableViewCell.swift in Sources */,
@@ -274,6 +281,7 @@
 				9129D5A71BA7243D0088F743 /* collectionVCell.swift in Sources */,
 				9129D5991B9F7BD00088F743 /* JudgeViewController.swift in Sources */,
 				910BD7BB1B9A045A003BB10E /* AppDelegate.swift in Sources */,
+				9129D5AD1BA862490088F743 /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

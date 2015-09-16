@@ -8,11 +8,14 @@
 
 import UIKit
 
-class BrowseCollectionViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+class BrowseCollectionViewController: UIViewController, UICollectionViewDelegateFlowLayout, UICollectionViewDataSource, UICollectionViewDelegate {
     
     @IBOutlet weak var menuButton: UIBarButtonItem!
     
-
+    var projectName: [String] = ["Trade Show Management Kit","Music Matcher"," Boom Town"]
+    var projectImage: [String] = ["TradeShowLogo","watchkit-intro","webkit-featured"]
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -22,6 +25,8 @@ class BrowseCollectionViewController: UIViewController, UICollectionViewDataSour
             menuButton.action = "revealToggle:"
             self.view.addGestureRecognizer(self.revealViewController().panGestureRecognizer())
         }
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
@@ -38,14 +43,14 @@ class BrowseCollectionViewController: UIViewController, UICollectionViewDataSour
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         //#warning Incomplete method implementation -- Return the number of items in the section
     
-        return 1
+        return projectName.count
         //how many project in database
     }
     
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         let cell: collectionVCell = collectionView.dequeueReusableCellWithReuseIdentifier("Cell", forIndexPath: indexPath) as! collectionVCell
-        cell.labelCell.text = "TradeShow magan..."
-        cell.imgCell.image = UIImage(named: "TradeShowLogo")
+        cell.labelCell.text = projectName[indexPath.row]
+        cell.imgCell.image = UIImage(named: projectImage[indexPath.row])
         // Configure the cell
         
         return cell
